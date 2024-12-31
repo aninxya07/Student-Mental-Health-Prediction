@@ -122,3 +122,6 @@ input_data = pd.DataFrame({
 if st.button("Predict Depression Status"):
     prediction = make_prediction(input_data)
     st.write(f"Prediction: {'Depressed' if prediction[0] == 1 else 'Not Depressed'}")
+
+# Add copyright line below the prediction
+st.markdown("<br><hr><p style='text-align: center;'>© 2024 Anindya Dolui. All rights reserved.</p>", unsafe_allow_html=True)
