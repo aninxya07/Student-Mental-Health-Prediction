@@ -77,6 +77,11 @@ def make_prediction(input_data):
     return prediction
 
 # Streamlit interface
+with st.sidebar:
+    st.title(':red[**About App**]')
+    st.markdown('<br>', unsafe_allow_html=True)
+    st.markdown('A machine learning project to analyze and predict student mental health outcomes based on behavioral, academic, and social data. The model is trained using **Random Forest** and includes data preprocessing, feature engineering, model training, and evaluation.')
+    st.markdown("<br><hr><p style='text-align: center;'>© 2024 Anindya Dolui. All rights reserved.</p>", unsafe_allow_html=True)
 st.title("Student Mental Health Prediction")
 st.write("Enter the details below to predict if the student is depressed or not.")
 
