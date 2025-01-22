@@ -1,5 +1,7 @@
 # Student Mental Health Prediction
 
+<img width="958" alt="image" src="./preview.png">
+
 <p align="center">
   <a href="https://student-mental-health-prediction.streamlit.app/">Demo app</a>
 </p>
