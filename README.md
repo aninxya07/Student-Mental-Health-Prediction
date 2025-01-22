@@ -1,5 +1,9 @@
 # Student Mental Health Prediction
 
+<p align="center">
+  <a href="https://student-mental-health-prediction.streamlit.app/">Demo app</a>
+</p>
+
 This repository contains a machine learning project aimed at predicting the mental health status of students, specifically whether a student is depressed or not. It uses a Random Forest Classifier to analyze various features such as academic pressure, work pressure, CGPA, sleep duration, and other demographic details to predict the depression status.
 
 ## Files in this Repository
